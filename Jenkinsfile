@@ -13,6 +13,12 @@ pipeline {
                 echo "Testing Working"
             }
         }
+
+      stage("Test") {
+            steps {
+                echo "Testing Working"
+            }
+        }
     }
     
 }
