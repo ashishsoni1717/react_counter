@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage("Build Release") {
             steps {
-                echo "Hello Build Working" 
+                echo "Hello Build Working good" 
             }
         }
 
